@@ -17,11 +17,15 @@
         </el-container>
       </el-col>
     </el-row>
+
+    <!--底部-->
+    <Footer/>
   </div>
 </template>
 
 <script>
   import NavBar from "components/common/NavBar";
+  import Footer from "components/common/Footer";
   import Author from "components/content/Author";
 
   export default {
@@ -29,7 +33,8 @@
     components: {
       NavBar,
       Author,
-    },
+      Footer,
+    }
   }
 </script>
 
