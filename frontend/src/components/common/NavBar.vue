@@ -55,7 +55,7 @@
       const user = this.$store.state.user
       if (this.$store.state.isLogin) {
         this.username = user.username
-        this.avatarSrc = 'http://127.0.0.1:8000/media/' + user.avatar
+        this.avatarSrc = 'http://39.98.207.147/media/' + user.avatar
         this.access = user.access===1
       }
     },

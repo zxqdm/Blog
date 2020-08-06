@@ -117,7 +117,7 @@
               this.$alert(res.message, {
                 confirmButtonText: '确定',
                 callback: () => {
-                  this.$router.replace('/login/')
+                  this.$router.replace({name: 'login'})
                 }
               })
             }

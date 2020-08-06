@@ -30,7 +30,7 @@
         username: '',
         isShow: false,
         btnShow: true,
-        avatarSrc: 'http://127.0.0.1:8000/media/authorAvatar.jpg'
+        avatarSrc: 'http://39.98.207.147:8000/media/authorAvatar.jpg'
       }
     },
     methods: {

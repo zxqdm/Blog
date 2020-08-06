@@ -104,7 +104,7 @@
             let res = response.data
             if (res.status === 1) {
               for (var i in res.data) {
-                this.$refs.md.$img2Url(res.data[i][0], 'http://127.0.0.1:8000/media/' + res.data[i][1]);
+                this.$refs.md.$img2Url(res.data[i][0], 'http://39.98.207.147/media/' + res.data[i][1]);
               }
               resolve()
             }

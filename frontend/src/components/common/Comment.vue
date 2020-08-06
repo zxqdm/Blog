@@ -126,7 +126,7 @@
     },
     data() {
       return {
-        avatarUrl: 'http://127.0.0.1:8000/media/' + this.$store.state.user.avatar,
+        avatarUrl: 'http://39.98.207.147/media/' + this.$store.state.user.avatar,
         commentInput: '',
         replyInput: '',
         btnShow: false,
